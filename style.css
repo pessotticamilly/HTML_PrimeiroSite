@@ -1,0 +1,302 @@
+body {
+    margin: 0;
+    font-size: "candara";
+    background-color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+    margin: 0;
+    color: #000000;
+    font-family: "candara";
+}
+
+
+.container {
+    max-width: 1920px;
+    width: 100px;
+}
+
+
+/* cabeçalho */
+
+header {
+    position: relative;
+    top: 0;
+    height: auto;
+    width: 100%;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    height: 100px;
+    width: 100%;
+    z-index: 1;
+    background-color: #FFC0CB;
+    border-bottom: 1px #ff8297;
+
+}
+
+nav:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.nav-container {
+    max-width: 1200px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: "candara";
+}
+
+.logo-container {
+    margin-top: 25px;
+    font-family: "candara";
+    font-size: 20px;
+
+}
+
+.nav-container ul {
+    float: right;
+    height: 100px;
+    line-height: 1px;
+    margin: 0;
+}
+
+.nav-container li {
+    list-style: none;
+    float: left;
+    margin: 0 15px;
+}
+
+.nav-container li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: .5s;
+}
+
+.nav-container li a:hover {
+    color: #ff8297;
+}
+
+
+/*meio*/
+
+#produtos-container {
+    margin-top: 80px;
+    text-align: center;
+    padding: 5em 0;
+}
+
+#produtos-container .p-center {
+    margin-bottom: 60px;
+}
+
+.article-box {
+    display: inline-block;
+    width: 31%;
+    padding: 0 1%;
+    text-align: center;
+}
+
+.article-box img {
+    width: 90%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.article-box h4 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.preco-produto {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.descricao-produto {
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+
+/*rodapé*/
+
+footer {
+    background-color: #999999;
+    padding-top: 5em;
+    padding-bottom: 40px;
+    border-top: #ff8297;
+}
+
+footer h2,
+footer p,
+footer span {
+    color: white;
+}
+
+.footer-box {
+    width: 31%;
+    padding: 1%;
+    float: left;
+}
+
+footer .wrapper:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.location-footer {
+    width: 80%;
+}
+
+.location-footer {
+    margin-top: 20px;
+}
+
+.location-footer h2,
+.location-footer p {
+    margin-bottom: 20px;
+}
+
+.we-footer {
+    width: 80%;
+}
+
+.we-footer {
+    margin-top: 20px;
+}
+
+.we-footer h2,
+.we-footer p {
+    margin-bottom: 20px;
+}
+
+.homage-footer {
+    width: 80%;
+}
+
+.homage-footer {
+    margin-top: 20px;
+}
+
+.homage-footer h2,
+.homage-footer p {
+    margin-bottom: 20px;
+}
+
+.footer-bottom {
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+
+/*página contato*/
+
+#contato-container {
+    margin-top: 100px;
+    background: none;
+    padding: 5em 0;
+}
+
+#contato-container h1 {
+    font-size: 36px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.input-box {
+    margin-bottom: 2em;
+    width: 50%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contato-container label {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 1em;
+    font-family: "candara";
+}
+
+#contato-container input,
+button {
+    border-radius: 5px;
+    border: 1px solid #ff8297;
+    margin: 0;
+    width: 100%;
+}
+
+#contato-container textarea {
+    border-radius: 5px;
+    border: 1px solid #ff8297;
+    font-family: "candara";
+    margin: 0;
+    width: 100%;
+}
+
+#contato-container button {
+    margin: 0 15px;
+}
+
+#contato-container input,
+textarea,
+button {
+    padding: 10 20px;
+}
+
+#contato-container input[type=submit] {
+    width: 200px;
+    float: right;
+}
+
+#contato-container button[type=reset] {
+    margin: 0 15px;
+    width: 200px;
+    float: right;
+}
+
+.input-box:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+#contato-container input[type=submit] {
+    background-color: #FFC0CB;
+    text-transform: uppercase;
+    color: black;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#contato-container input[type=submit]:hover {
+    background-color: #ff8297;
+}
+
+
+/* página sobre*/
+
+#sobre {
+    margin-top: 100px;
+    padding: 5em 0;
+    font-family: "candara";
+}
+
+#sobre p {
+    font-size: 16px;
+}
